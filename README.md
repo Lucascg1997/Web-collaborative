@@ -2,25 +2,10 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
 
-The most basic boilerplate for any 4Geeks Academy Student using the [gitpod.io](gitpod.io) coding editor.
+Each of us works on a different file, for a different part of the website and the most senior can work as Team Leader (for integration and deployment). The Html-Template-Engine library will take care of putting all the pieces together. The Html-Template-Engine library is being used as template engine for building the landing page.
 
-[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/web-docs/static/hello-html-intro.jpg?raw=true)](https://youtu.be/dfbDCMu_p-0)
-
-## What to do next?
-
-Create a `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running web-server using the following command:
-
-```sh
-$ pip3 install flask && python3 server.py
-```
-
-- You can create as many HTML files you want
-- You can also create CSS files and you can import them onto your website using a `<link>` tag placed between the `<head></head>` tags, like this:
-
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+Instructions:
+- The Team Leader should fork this repository on github.com and invite other collaborators to the repo.
+- We are going to be building this design, and this is how you can split with the students
+- Each contributor will have to clone the new forked repository and develop one piece of the website you have chosee, each project is divided in pieces inside its templates/ directory.
+- REMEMBER: When each team member finishes, they have to commit and push to the forked repository
